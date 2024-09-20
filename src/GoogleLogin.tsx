@@ -83,8 +83,8 @@ export default function GoogleLogin({
       click_listener,
     });
 
-    if (useOneTap)
-      window?.google?.accounts?.id?.prompt(promptMomentNotificationRef.current);
+    // if (useOneTap)
+    //   window?.google?.accounts?.id?.prompt(promptMomentNotificationRef.current);
 
     return () => {
       if (useOneTap) window?.google?.accounts?.id?.cancel();
