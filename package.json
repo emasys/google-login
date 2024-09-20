@@ -1,0 +1,60 @@
+{
+  "name": "oauth2-google-login",
+  "version": "0.0.1",
+  "description": "Google OAuth2 using Google Identity Services for React 🚀",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "prerelease": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Emmanuel Ndukwe",
+    "email": "emmanuel.o.ndukwe@gmail.com",
+    "url": "https://github.com/emasys"
+  },
+  "homepage": "https://github.com/emasys/oauth2-google-login",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emasys/oauth2-google-login"
+  },
+  "bugs": {
+    "url": "https://github.com/emasys/oauth2-google-login/issues",
+    "email": "emmanuel.o.ndukwe@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "react-oauth-google",
+    "react-google-login",
+    "react-social-login",
+    "react-oauth",
+    "react-login",
+    "google-login",
+    "google-oAuth2",
+    "google-oAuth"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
