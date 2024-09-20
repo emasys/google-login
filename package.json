@@ -1,6 +1,6 @@
 {
   "name": "oauth2-google-login",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google OAuth2 using Google Identity Services for React 🚀",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",

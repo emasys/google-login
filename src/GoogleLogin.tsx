@@ -68,6 +68,7 @@ export default function GoogleLogin({
         });
       },
       ...props,
+      auto_select: false,
     });
 
     window?.google?.accounts?.id?.renderButton(btnContainerRef.current!, {
